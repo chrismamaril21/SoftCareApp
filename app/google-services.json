@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542028049689",
+    "project_id": "application-project-7173d",
+    "storage_bucket": "application-project-7173d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542028049689:android:76f5dd67f5b4a51a0de988",
+        "android_client_info": {
+          "package_name": "com.example.softcareapplicationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542028049689-sjo25ao3dlhgih4k4gftkcr1r88bimsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-JOvp9GVW2m6bmwwgnb2cNOERzdn11ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542028049689-sjo25ao3dlhgih4k4gftkcr1r88bimsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.softcareapplicationproject.checkup">
+
+    <EditText
+        android:id="@+id/ptemp"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Temperature (°C)"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pheight"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <EditText
+        android:id="@+id/pheight"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Height (cm)"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pweight"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <EditText
+        android:id="@+id/pweight"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pnum"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <EditText
+        android:id="@+id/pnum"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/page"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_width="324dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Patient's Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <EditText
+        android:id="@+id/page"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pname"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <EditText
+        android:id="@+id/padd"
+        android:layout_width="324dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Your email address"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pname"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:text="SUBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ptemp"
+        app:layout_constraintVertical_bias="0.272" />
+</androidx.constraintlayout.widget.ConstraintLayout>
